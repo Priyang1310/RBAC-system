@@ -164,19 +164,6 @@ auth-rbac-client/
 
 ---
 
-## **Screenshots**
-
-### **Login Page**
-![Login Page](#)
-
-### **Registration Page**
-![Registration Page](#)
-
-### **Dashboard**
-![Dashboard](#)
-
----
-
 ## **Contact**
 For any queries or feedback, please contact:
 - **Name**: Priyang Desai
