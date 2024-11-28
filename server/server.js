@@ -8,13 +8,8 @@ const app = express();
 connectDB();
 
 app.use(express.json());
-const corsOptions = {
-    origin: 'https://rbac-system-indol.vercel.app', // Your frontend URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
-    credentials: true // Allow cookies or credentials
-};
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use("/api/auth", authRoutes);
 
 const PORT = process.env.PORT || 5000;
